@@ -177,13 +177,14 @@ img{
     background-color: antiquewhite;
 }
 .promotions img{
-    height: 350px;
-    width: 350px;
-    margin-left: 15%;
+    width: 100%;
+    
 }
 .app_image{
     margin-left: 15%;
     margin-right: 2%;
+    height: 370px;
+    width: 344px;
 }
 .PLaystore{
     padding-top: 30px;
@@ -292,11 +293,12 @@ img{
 .last{
     text-align: center;
 }
-@media only screen and (max-width: 600px) {
-     .box img{
+@media only screen and (max-width: 800px) {
+    
+    .box img{
         width: 100%;
      }
-
+    
     .nav-bar ul {
         flex-direction: column;
         align-items: center;
@@ -320,8 +322,7 @@ img{
         align-items: center;
     }
     .app_text {
-        padding: 20px;
-        text-align: center;
+        width: 100%;
     }
     .radio_input {
         flex-direction: column;
