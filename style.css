@@ -171,67 +171,57 @@ img{
            cursor: pointer;
            box-shadow: 5px 5px 5px black;
 }
-.promotions{
+.Promotions{
     display: flex;
     flex-wrap: wrap;
-    background-color: antiquewhite;
+    justify-content: center;
+    gap: 50px;
 }
-.promotions img{
-    width: 100%;
-    
-}
-.app_image{
-    margin-left: 15%;
-    margin-right: 2%;
-    height: 370px;
-    width: 344px;
-}
-.PLaystore{
-    padding-top: 30px;
-    flex-wrap: wrap;
-    text-align: center;
+.promo h4{
     font-size: 30px;
-    font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom:1% ;
 }
-.app_radio{
-    
-    padding-top: 30px;
+.promo p{
+    padding:10px 1% 0px 0px ;
+}
+.mail input{
+    accent-color: red;
+    border: 3px solid #000000;
+}
+.mail label{
+    font-size: 20px;
+}
+.mail input:hover{
+    outline-color: red;
+    cursor: pointer;
+}
+.radio{
     display: flex;
-    justify-content: space-around;
-    font-weight: lighter;
-    font-size: medium;
-    margin-top: 4%;
-    padding-right: 300px;
+    padding: 5% 0px 5% 0px;
+    gap: 80px;
 }
-.app_radio input{
-    padding-top: 30px;
-    margin: 0;
-    height: auto;
-    width: auto;
+#Elp{
+    border-radius: 10px;
+    padding: 3%;
 }
-.radio_input{
+.promo button{
+    background-color: red;
+    padding: 3%;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.promo button:hover{
+    cursor: pointer;
+}
+.pimg{
     display: flex;
-    flex-wrap: wrap;
-    margin: 5%;
-    padding-right: 100px;
-    flex-grow: 1;
+    gap: 5px;
+    padding-top: 3%;
 }
-.radio_input input{
-    border-radius: 10px;
-    height: 30px;
-    width: auto;
-}
-.share_button{
-    margin-left: 3%;
-}
-.share_button button{
-    background-color: rgb(244, 29, 29);
-    color: white;
-    height: 35px;
-    border-radius: 10px;
-    font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.pimg img{
+    height: 50px;
+    width: 180px;
 }
 .exp{
     padding: 20px 20px 10px 0px;
@@ -298,7 +288,6 @@ img{
     .box img{
         width: 100%;
      }
-    
     .nav-bar ul {
         flex-direction: column;
         align-items: center;
@@ -317,17 +306,6 @@ img{
         width: 100%;
         max-width: none;
     }
-    .promotions {
-        flex-direction: column;
-        align-items: center;
-    }
-    .app_text {
-        width: 100%;
-    }
-    .radio_input {
-        flex-direction: column;
-        align-items: stretch;
-    }
     .Places{
         display: flex;
     }
@@ -343,4 +321,8 @@ img{
         margin: 0;
         padding: 20px;
     }
+    .app_image{
+        width:260px
+    }
+    
 }
