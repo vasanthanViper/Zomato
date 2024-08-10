@@ -221,7 +221,7 @@ img{
 }
 .pimg img{
     height: 50px;
-    width: 180px;
+    width: 150px;
 }
 .exp{
     padding: 20px 20px 10px 0px;
@@ -254,6 +254,10 @@ img{
     display: flex;
     justify-content: space-around;
     padding-bottom: 30px;
+}
+.end img{
+    width: 160px;
+    height: 35px;
 }
 .ed_text p{
     text-align: center;
@@ -323,6 +327,10 @@ img{
     }
     .app_image{
         width:260px
+    }
+    .Promotions img{
+        height: 350;
+        width: 359;
     }
     
 }
