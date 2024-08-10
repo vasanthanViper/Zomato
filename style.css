@@ -172,6 +172,7 @@ img{
 }
 .promotions{
     display: flex;
+    flex-wrap: wrap;
     background-color: antiquewhite;
 }
 .promotions img{
@@ -286,4 +287,8 @@ img{
 }
 .deta nav{
     padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    
 }
