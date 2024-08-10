@@ -2,7 +2,7 @@
     margin: 0;
 }
 .nav-bar{
-    background-image:url("Bg-imag.jpeg");
+    background-image:url("bg-img.jpg");
     width:100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,46 +98,46 @@ img{
     height: 300px;
     width: 250px;
 }
-.events div p{
-    padding-top:100%;
-    padding-left: 10px;
-    font-size: medium;
-    font-weight: bolder;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow:2px 1px black;
-}
+
 .new-shop{
-    background-image: url('new\ shop.jfif');
+    background-image: url('new_shop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
     color: white;
     border-radius: 10px;
+    align-content: end;
+    padding: 2em;
 }
 .sea-view{
-    background-image: url('sea-dinning.jfif');
+    background-image: url('sea_view.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
     color: white;
     border-radius: 10px;
+    align-content: end;
+    padding: 2em;
 }
 .sights{
-    background-image: url('places.jfif');
+    background-image: url('park.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
     color: white;
     border-radius: 10px;
+    align-content: end;
+    padding: 2em;
 }
 .buffer{
-    background-image: url('town.jfif');
+    background-image: url('if.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
     color: white;
     border-radius: 10px;
+    align-content: end;
+    padding: 2em;
 }
 .loc{
     font-size: 25px;
@@ -159,10 +159,11 @@ img{
     border-style: solid;
     border-width: 1px;
     padding: 10px;
-    flex-basis: 30%;
+    flex-basis: 27%;
+    flex-grow: 2;
     border-radius: 10px;
     text-align:start;
-    height: 50px;
+    height: auto;
     width: 150px;
     box-shadow: 1px 1px 3px black;
 }
@@ -288,7 +289,57 @@ img{
 .deta nav{
     padding: 10px;
 }
+.last{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+     .box img{
+        width: 100%;
+     }
 
-@media only screen and (max-width: 800px) {
-    
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-list li:first-child {
+        margin-right: 0;
+    }
+    .zomato img {
+        width: 100%;
+        height: auto;
+    }
+    .r1 {
+        flex-direction: column;
+    }
+    .events div {
+        width: 100%;
+        max-width: none;
+    }
+    .promotions {
+        flex-direction: column;
+        align-items: center;
+    }
+    .app_text {
+        padding: 20px;
+        text-align: center;
+    }
+    .radio_input {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .Places{
+        display: flex;
+    }
+    .Places div{
+        padding-bottom: 3px;
+        flex-basis: 50%;
+    }
+    .collection{
+        margin:0;
+        padding: 20px;
+    }
+    .loc{
+        margin: 0;
+        padding: 20px;
+    }
 }
