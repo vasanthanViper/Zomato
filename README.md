@@ -1,4 +1,5 @@
 Zomato UI Clone
+----------------
 This project is a static front-end clone of the Zomato user interface, built exclusively with HTML and CSS. It aims to replicate the visual design and layout of key sections of the Zomato website, providing a responsive and aesthetically similar user experience without any backend functionality.
 
 Table of Contents
